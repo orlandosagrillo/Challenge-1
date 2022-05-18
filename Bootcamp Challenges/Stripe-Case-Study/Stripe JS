@@ -1,0 +1,36 @@
+# Stripe JS
+
+A Javascript library, which can be used to wire in the users checkout form to handle customer credit card information.
+
+## Usefuleness
+
+- Ability to rebil a customer without storing private information
+- No refund fees
+- Reminder system
+- Comprehensible data
+- Use of graphs and charts
+- Supports wide variety of payment methods and currencies
+
+# How to use
+
+## Includin Stripe.js
+
+Stripe.js script can be included on each page of a website:
+
+<script src="https://js.stripe.com/v3/"></script>
+
+## Initialising Stripe.js
+
+For Stripe to identify the website it must use, a publishable [API key](https://stripe.com/docs/keys) must be available. 
+
+*An API key allows Stripe to identify the code used in the Command Line Interace*
+
+var stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx')
+
+**This process only works if the user has access to the Stripe platform.**
+
+For more information click [Stripe.js](https://stripe.com/docs/js)
+
+
+
+
